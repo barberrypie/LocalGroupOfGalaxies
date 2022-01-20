@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    background: #202124;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+    color: #eff0ef;
+}
+
+
+header {
+    background: #1e1e21;
+    display: flex;
+    height: 65px;
+    line-height: 65px;
+    border-bottom-width: 2px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: #111113; /* Цвет линии внизу */
+}
+
+main {
+    display: flex;
+}
+
+.col-1-2 {
+    width: 50%;
+    margin: 15px 10px;
+    height: 400px;
+    background: #1e1e21;
+}
